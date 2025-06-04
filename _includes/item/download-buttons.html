@@ -1,3 +1,7 @@
+{%- comment -%}
+  (Buttons removed: “View on Timeline” and “Download” and "View on map" and "View Transcript" and video)
+{%- endcomment -%}
+
 {% comment %}
 
     Adds Item page button links, styled as a Bootstrap btn-group. 
@@ -8,6 +12,8 @@
     - Download -- if the item has "object_location" value, adds a download button along with the item format, or if the value is a YouTube or Vimeo link adds a "View on" link.  
 
 {%- endcomment -%}
+
+{%- comment -%}
 <div class="btn-group" role="group" aria-label="Item options">
     {% if page.object_transcript %}<button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTranscript" aria-expanded="false" aria-controls="collapseExample">View Transcript</button>{% endif %}
     {% if page.date %}{%- capture year -%}{% if page.date contains "-" %}{{ page.date | split: "-" | first }}{% elsif page.date contains "/" %}{{ page.date | split: "/" | last }}{% else %}{{ page.date }}{% endif %}{%- endcapture -%}
@@ -18,6 +24,8 @@
         {% if page.display_template == 'video' and page.object_location contains 'vimeo' %}View on Vimeo{% elsif page.display_template == 'video' and page.object_location contains 'youtu' %}View on YouTube{% elsif page.display_template == 'record'%}Link to Object{% else %}Download {{ page.format | split: '/' | last | default: page.display_template | upcase }}{% endif %}
     </a>{% endif %}
 </div>
+{%- endcomment -%}
+
 {% if page.object_transcript %}
 <div class="collapse mt-3" id="collapseTranscript">
     <div class="card card-body text-start">
