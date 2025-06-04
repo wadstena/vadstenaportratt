@@ -5,12 +5,5 @@ date,Datering,,,DCTERMS.date,dateCreated
 creator,Fotograf,,,DCTERMS.creator,creator
 description,Beskrivning,,,DCTERMS.description,description
 subject,Ämne,true,,DCTERMS.subject,keywords
-location,Location,,,,contentLocation
-latitude,Latitude,,,,
-longitude,Longitude,,,,
-source,Source,,,,
+source,Källa,,,,
 identifier,ID,,,,
-type,Type,,,DCTERMS.type,
-format,Format,,,,encodingFormat
-language,Language,,,DCTERMS.language,
-rightsstatement,,,,DCTERMS.rights,license
