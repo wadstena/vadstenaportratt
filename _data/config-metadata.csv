@@ -1,14 +1,15 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
-title,Title,,,DCTERMS.title,headline
-creator,Creator,,,DCTERMS.creator,creator
-date,Date Created,,,DCTERMS.date,dateCreated
-description,Description,,,DCTERMS.description,description
-subject,Subjects,true,,DCTERMS.subject,keywords
+title,Namn,,,DCTERMS.title,headline
+occupation,Yrke,,,,
+creator,Fotograf,,,DCTERMS.creator,creator
+date,Datering,,,DCTERMS.date,dateCreated
+description,Beskrivning,,,DCTERMS.description,description
+subject,Ämne,true,,DCTERMS.subject,keywords
 location,Location,,,,contentLocation
 latitude,Latitude,,,,
 longitude,Longitude,,,,
 source,Source,,,,
-identifier,Source Identifier,,,,
+identifier,Foto ID,,,,
 type,Type,,,DCTERMS.type,
 format,Format,,,,encodingFormat
 language,Language,,,DCTERMS.language,
