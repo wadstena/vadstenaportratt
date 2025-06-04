@@ -1,15 +1,15 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Namn,,,DCTERMS.title,headline
 occupation,Yrke,,,,
-creator,Fotograf,,,DCTERMS.creator,creator
 date,Datering,,,DCTERMS.date,dateCreated
+creator,Fotograf,,,DCTERMS.creator,creator
 description,Beskrivning,,,DCTERMS.description,description
 subject,Ämne,true,,DCTERMS.subject,keywords
 location,Location,,,,contentLocation
 latitude,Latitude,,,,
 longitude,Longitude,,,,
 source,Source,,,,
-identifier,Foto ID,,,,
+identifier,ID,,,,
 type,Type,,,DCTERMS.type,
 format,Format,,,,encodingFormat
 language,Language,,,DCTERMS.language,
